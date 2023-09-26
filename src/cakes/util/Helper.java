@@ -4,12 +4,12 @@ import java.util.Random;
 
 public class Helper {
 
-    Random sc = new Random();
+    static Random sc = new Random();
 
-    public int getRandom(int max){
+    public static int getRandom(int max){
         return sc.nextInt(max);
     }
-    public int getRandom(int min, int max){
+    public static int getRandom(int min, int max){
         return sc.nextInt(min, max);
     }
 
